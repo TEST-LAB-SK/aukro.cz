@@ -1,0 +1,9 @@
+**/allure
+**/node_modules
+**/screenshots
+**/videos
+yarn.lock
+yarn-error
+package-lock.json
+debug.log
+

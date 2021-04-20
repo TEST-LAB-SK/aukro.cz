@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig",
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@helpers/*": ["helpers/*"]
+    }
+  }
+  
+}

@@ -1,0 +1,30 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    
+    "video": true,
+    "videosFolder": "../videos",
+    "videoUploadOnPasses": false,
+    "videoCompression": 0,
+    
+    "screenshots": true,
+    "screenshotsFolder": "../screenshots",
+
+    "trashAssetsBeforeRuns": true,
+    
+    "viewportHeight": 800,
+    "viewportWidth": 1280,
+    
+    "chromeWebSecurity": false,
+    "X-Frame-Options": true,
+
+    "defaultCommandTimeout": 60000,
+    "requestTimeout": 60000,
+    "responseTimeout": 60000,
+    "pageLoadTimeout": 60000,
+
+    "retries": {
+        "runMode": 0,
+        "openMode": 0
+    }
+
+}

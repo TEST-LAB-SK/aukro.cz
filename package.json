@@ -1,0 +1,26 @@
+{
+  "author": "TEST-LAB",
+  "license": "ISC",
+
+  "name": "aukro.cz",
+  "version": "1.0.0",
+  "description": "",
+
+  "main": "cypress/support/index.ts",
+
+  "scripts": {
+    "cy:project:env:open": "cypress open -P project -C cypress/config/env.json",
+    "cy:project:env:run": "cypress run -P project -C cypress/config/env.json"
+  },
+
+  "dependencies": {
+    "cypress": "^7.1.0",
+    "typescript": "^4.2.4",
+    "deepmerge": "^4.2.2"
+  },
+
+  "devDependencies": {
+    
+  }
+
+}
