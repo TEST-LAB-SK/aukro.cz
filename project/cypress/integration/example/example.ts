@@ -4,11 +4,11 @@
 import { data } from '@helpers/example'
 
 let pageInfo = []
-let categoryItem = {
+let categoryItem /*= {
   count: "3568",
   name: "Bankovky",
   url: "https://aukro.cz/bankovky?paymentViaAukro=true"
-}
+}*/
 
 describe('Payment scenario', function() {
 
@@ -85,7 +85,7 @@ describe('Payment scenario', function() {
           .click()
 
         cy.get(data.loginButton)
-          .contains('Přihlásit se')
+          .should('contain.text', 'Přihlásit se')
 
       // TODO: What action should ocure in case of no button exists?
       } else {
